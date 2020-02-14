@@ -1,6 +1,6 @@
 {
-    "brand" : "ASUS",
     "key" : "value",
+    "brand" : "ASUS",
     "keyboardKeys" : [],
     "something" : { 
         "newKey" : "valuepairs"

@@ -6,8 +6,7 @@
 var myObj = {"message": "Hello, earthling! I bring peace."};
 
 // Log the message 
-var myString = JSON.stringify(myObj);
-console.log(myString);
+console.log(myObj.message);
 // --------------------------------------
 // Exercise 2 - Defining an object. 
 

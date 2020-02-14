@@ -48,6 +48,7 @@ console.log(diet);
 
 // --------------------------------------
 var dinnerTray = diet.slice();
+// can also be done with spread operator (...diet)
 console.log(dinnerTray);
 // --------------------------------------
 // Exercise 7 - For loop
@@ -55,7 +56,7 @@ console.log(dinnerTray);
 var letters = ["a","b","c", "d", "e", "f", "g", "h"];
 
 // log every second char in the array starting from b
-for (i=1 ; i < letters.length; i+=2 ){
+for ( var i=1 ; i < letters.length; i+=2 ){
 console.log (letters[i])
 }
 // --------------------------------------
@@ -69,7 +70,7 @@ var discardedNumbers = [];
 // log the element if the number is above 6 or below 0
 // else push them to the array discardedNumbers
 for(i=0; i< numbers.length; i++){
-    if(numbers[i] > 6 || numbers[i] < 0){
+    if(numbers[i] < 0 || numbers[i] > 6){
         console.log(numbers[i]);  
     }else {
         discardedNumbers.push(numbers[i]);
